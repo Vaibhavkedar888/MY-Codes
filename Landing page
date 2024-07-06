@@ -4,7 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Your Adventure</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('N.jpg');
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero .btn {
+    background: #f04e30;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.destination, .tour, .article {
+    flex: 1;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.destination img, .tour img, .article img {
+    width: 100%;
+    height: auto;
+}
+
+.destination h3, .tour h3, .article h3 {
+    margin: 10px 0;
+}
+
+.destination a, .tour .btn, .article a {
+    display: block;
+    padding: 10px;
+    background: #285254;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.testimonials .slider {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.newsletter input, .newsletter button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact form, .contact .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.contact .social-media {
+    display: flex
+}
+.blog .btn {
+    background: #f04e30;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+</style>
 </head>
 <body>
     <header>
